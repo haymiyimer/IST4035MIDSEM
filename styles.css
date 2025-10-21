@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 10px;
+}
+button:focus {
+  outline: 2px solid #ff66b2;
+}
+
+input:focus {
+  outline: 2px solid #ff66b2;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: 10px; 
+}
+@media (min-width: 481px) {
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  section {
+    width: 48%;
+  }
+}
